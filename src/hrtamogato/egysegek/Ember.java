@@ -10,16 +10,37 @@ public abstract class Ember {
     private boolean sex;
     private List<String> hobbies;
     private List<String> skills;
-    private int promotions;
 
-    public Ember(String fName, String lName, boolean sex, List<String> hobbies, List<String> skills, int promotions) {
+    public Ember(String fName, String lName, boolean sex, List<String> hobbies, List<String> skills) {
         this.fName = fName;
         this.lName = lName;
         this.sex = sex;
         this.hobbies = hobbies;
         this.skills = skills;
-        this.promotions = promotions;
     }
+
+    public String getfName() {
+        return fName;
+    }
+
+    public String getlName() {
+        return lName;
+    }
+
+    public boolean isSex() {
+        return sex;
+    }
+
+    public List<String> getHobbies() {
+        return hobbies;
+    }
+
+    public List<String> getSkills() {
+        return skills;
+    }
+
+    
+
 
     public abstract int PontSzamozas();
 }

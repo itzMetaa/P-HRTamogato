@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package hrtamogato.egysegek;
 
-/**
- *
- * @author Diak
- */
+import java.util.List;
+
+
 public class Jelentkezo extends Ember{
+
+    public Jelentkezo(String fName, String lName, boolean sex, List<String> hobbies, List<String> skills) {
+        super(fName, lName, sex, hobbies, skills);
+    }
+
+    @Override
+    public int PontSzamozas() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
