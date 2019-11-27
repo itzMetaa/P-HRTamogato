@@ -9,6 +9,6 @@ package hrtamogato.egysegek;
  *
  * @author Diak
  */
-public class Alkalmazott {
+public class Alkalmazott extends Ember{
     
 }

@@ -9,6 +9,6 @@ package hrtamogato.egysegek;
  *
  * @author Diak
  */
-public class Jelentkezo {
+public class Jelentkezo extends Ember{
     
 }
